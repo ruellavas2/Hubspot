@@ -22,7 +22,7 @@ async function sendResult(result) {
             console.error('Server Response:', error.response.data);
             return error.response.status;
         }
-        return -1; // Return a custom status code or value to indicate an error
+        return -1; 
     }
 }
 
