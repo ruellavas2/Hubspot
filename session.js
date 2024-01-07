@@ -1,4 +1,4 @@
-const axios = require('axios'); // Assuming you're using Node.js and the axios library for HTTP requests
+const axios = require('axios'); 
 
 async function fetchEventData() {
     const url = "https://candidate.hubteam.com/candidateTest/v3/problem/dataset?userKey=79721660d7b07abfff20d0c92332";
